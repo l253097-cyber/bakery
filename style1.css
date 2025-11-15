@@ -1,0 +1,100 @@
+body {
+    background-color: #dfd0e1;
+    font-family: sans-serif;
+    color: #380932;
+    text-align: center; 
+}
+header {
+    padding: 30px;
+    border-bottom: 2px solid rgb(76, 21, 68);
+}
+header h1 {
+    margin-bottom: 10px;
+}
+header p {
+    font-style: sans-serif;
+    color: #803277;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 50px;
+    padding: 10px 10px;
+}
+.hero {
+    max-width: 800px;
+}
+.products {
+    max-width: 1000px;
+}
+.products h2 {
+    margin-bottom: 20px;
+}
+.grid {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.order {
+    max-width: 600px;
+    width: 100%;
+}
+.order h2 {
+    margin-bottom: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center; 
+}
+form label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+form input, form select, form textarea {
+    margin-top: 5px;
+    padding: 8px;
+    width: 80%;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+form fieldset {
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+}
+form legend {
+    font-weight: bold;
+}
+form button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #a72260;
+    color: #e7c4c4;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #340a32;
+}
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    border-top: 2px solid rgb(76, 21, 68);
+}
